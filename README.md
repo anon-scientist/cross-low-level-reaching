@@ -87,6 +87,6 @@ Here are some of the relevant hyperparameters the RL-Framework accepts. For more
 
 ## Related Repositories
 * [**CRoSS** - Entry Repository](https://github.com/anon-scientist/continual-robotic-simulation-suite/)
-* [ICRL - RL-Framework Repository](https://github.com/anon-scientist/icrl/)
-* [CL_Experiments - Utils Repository](https://github.com/anon-scientist/cl_experiments/)
+* [ICRL - RL-Framework Repository](https://github.com/anon-scientist/cross-icrl/)
+* [CL_Experiments - Utils Repository](https://github.com/anon-scientist/cl_experiment/)
 * [LLR-K with Kinematic Simulation](https://github.com/anon-scientist/cross-kinematic-low-level-reaching)

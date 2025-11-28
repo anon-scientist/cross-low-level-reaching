@@ -56,8 +56,12 @@ apptainer exec my_container.sif path_to_benchmark_repo/main.bash
 ```
 6. Look at the simulation results located in a new results folder inside the cloned repository
 
-## Files
-
+## File
+* `robot_only.bash`/`robot_only.py` Starts a demo demonstrating the standalone use of the robot, i.e., without environment or RL framework
+* `env_only.bash`/`env_only.py` Starts a demo demonstrating the standalone use of the environment, i.e., without the RL framework
+* `main.bash` Starts the complete RL experiment. Invocation as "source main.bash $(pwd)/.." where the argument is the base path of the other repositories
+* `src/cross_low_level_reaching/Experiment.py` The file that launches an experiment using our own RL framework.
+* `src/cross_low_level_reaching/Environment.py` The file that contains the environment that the RL framework operates.
 
 ## Command Line Parameters
 Here are some of the relevant hyperparameters the RL-Framework accepts. For more information look at the `main.bash` or the individual relevant python files.

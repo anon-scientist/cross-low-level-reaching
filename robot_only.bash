@@ -2,8 +2,6 @@
 SRC_PATH=${1}
 PROJECT_DIR="cross-low-level-reaching"
 ROOT_PATH="${SRC_PATH}/${PROJECT_DIR}"
-
-ROOT_PATH="${SRC_PATH}/${PROJECT_DIR}"
 if [ -d "$ROOT_PATH" ]; then
     echo "Root path ${ROOT_PATH} confirmed!"
 else
